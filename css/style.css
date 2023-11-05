@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a[href]{
+    text-decoration: none;
+}
+.bg-blue{
+    background-color: #1A2456!important;
+}
+.text-blue{
+    color: #1A2456!important;
+}
+.text-pink{
+    color: #EFC2B3!important;
+}
+.text-pink:hover{
+    color: #cfa496!important;
+}
+.border-pink{
+    border-color:#cfa496!important;
+}
+.fs-20{
+    font-size:20px;
+}
+.mw-30em{
+    width: 30em;
+}
+header{
+    background: url(https://monogramcc.com/static/9a0b554db1990565457610c5f83b3ad7/91943/shop_cta_xl_896f6b8270.webp) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 670px;
+}
+button:focus{
+    box-shadow: none!important;
+}
+.cover{
+    background-color: rgba(0, 0, 0,.7);
+}
+.nav-link{
+    font-size: 15px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.top-10{
+    top: 10px;
+}
+.right-12{
+    right:12px;
+}
+main{
+    background-color: #F0EFED;
+}
+.h-600{
+    height: 600px;
+}
+.h-400{
+    height: 400px;
+}
+.h-200{
+    height: 200px;
+}
+.fnt-12{
+    font-size: 12px;
+}
+.bg-grey{
+    background-color: #C4C4C4;
+}
+.product:hover .dollar{
+    display: none;
+}
+.product a.btn{
+    display: none;
+}
+.product:hover a.btn{
+    display: inline-block;
+}
+::placeholder{
+    color: #cfa496!important;
+}
+.btn-pink , .bg-pink{
+    background-color: #cfa496!important;
+}
+.bg-1:hover{
+   content: url(../img/20221018_MonogramCC_Case_02_1920x1280_crop_center.jpg.jpeg);
+}
+.bg-2:hover{
+    content: url(../img/Consoles_CoreBracket1_Monogram_May2020_4578_6683fd8e-be63-45bb-9fbd-dd82a4838db8_1920x1280_crop_center.jpg.jpeg);
+}
+.bg-3:hover{
+    content: url(../img/Consoles_SliderBracket1_Monogram_May2020_4565_f941e8d9-d194-47ee-a54a-79132f105e34_1920x1280_crop_center.jpg.jpeg);
+ }
+ .bg-4:hover{
+    content: url(../img/Consoles_KeysBracket1_Monogram_May2020_4571_43b65ca9-4fde-4f55-9f0e-32374554ce76_1920x1280_crop_center.jpg.jpeg);
+ }
+ .bg-5:hover{
+    content: url(../img/Consoles_OrbiterHero_Monogram_May2020_4568_3d64e8b3-71ce-441a-9fcd-2b054c423310_1920x1280_crop_center.jpg.jpeg);
+ }
+ .bg-6:hover{
+    content: url(../img/Consoles_DialBracket1_Monogram_May2020_4575_981a6401-f834-4094-9a6e-6cd7d0b374ca_1920x1280_crop_center.jpg.jpeg);
+ }
